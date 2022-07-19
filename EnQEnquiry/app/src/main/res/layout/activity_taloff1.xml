@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Taloff1"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        app:layout_constraintEnd_toStartOf="@+id/sendSMS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msg1" />
+
+
+    <Button
+        android:id="@+id/sendSMS"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/rounded_button2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="SEND"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/rop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/msg1" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="335dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="32dp"
+        android:text="Your reply will be like..."
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtt" />
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="14dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sendSMS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/rop"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="16dp"
+        android:text="റവന്യൂ വകുപ്പ് - സമ്പൂർണ്ണ ഡിജിറ്റലൈസേഷനിലേക്ക് "
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendSMS" />
+
+    <TextView
+        android:id="@+id/txtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        android:text="സേവനം ഔദാര്യമല്ല  അവകാശമാണ് "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/msg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+</android.support.constraint.ConstraintLayout>

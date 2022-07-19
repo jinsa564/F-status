@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taloff3"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/sms" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="288dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="18dp"
+        android:text="SMS Send Successfully..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--  <Button
+        android:id="@+id/cntct"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="Contacts"
+        app:layout_constraintBottom_toTopOf="@+id/call"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <Button
+        android:id="@+id/call"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="123dp"
+        android:text="Call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cntct"
+        app:layout_constraintStart_toStartOf="@+id/cntct"
+        app:layout_constraintTop_toBottomOf="@+id/cntct" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="155dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="244dp"
+        android:text="Other Options"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />-->
+    <Button
+        android:id="@+id/ext"
+        android:layout_width="98dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="91dp"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Exit"
+        android:textColor="#fff"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

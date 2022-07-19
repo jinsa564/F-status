@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="36dp"
+        android:text="സേവനം ഔദാര്യമല്ല   "
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:fontFamily="@font/cambay"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:fontFamily="@font/faster_one" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="351dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="72dp"
+        android:text="റവന്യൂ ഡിവിഷണൽ ഓഫീസ് പാലാ "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:fontFamily="@font/faster_one"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/govtsym" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="120dp"
+        android:text="അവകാശമാണ് "
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textColorLink="@color/design_default_color_primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="36dp"
+        android:text="Designed by RIT MCA Students"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+</android.support.constraint.ConstraintLayout>
